@@ -39,10 +39,7 @@
 /*! EID2 DES iv size. */
 #define EID2_DES_IV_SIZE 0x08
 
-/*! Isolation root key. */
-extern u8 *iso_root_key;
-/*! Isolation root iv. */
-extern u8 *iso_root_iv;
+extern u8 *eid_root_key;
 
 /*! Syscon key seed. */
 extern u8 syscon_key_seed[INDIV_SIZE];
@@ -61,9 +58,11 @@ extern u8 eid3_indiv_seed[INDIV_SEED_SIZE];
 extern u8 eid4_indiv_seed[INDIV_SEED_SIZE];
 
 /*! EID0 keyseed version 1. */
-extern u8 eid0_keyseed_1[EID0_KEYSEED_SIZE];
-/*! EID0 keyseed version 4. */
-extern u8 eid0_keyseed_4[EID0_KEYSEED_SIZE];
+extern u8 eid0_keyseed_0[EID0_KEYSEED_SIZE];
+/*! EID0 keyseed version 6. */
+extern u8 eid0_keyseed_6[EID0_KEYSEED_SIZE];
+/*! EID0 keyseed version A. */
+extern u8 eid0_keyseed_A[EID0_KEYSEED_SIZE];
 
 /*! EID3 keyseed. */
 extern u8 eid3_keyseed[EID3_KEYSEED_SIZE];
